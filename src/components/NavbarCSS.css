@@ -3,8 +3,8 @@
    justify-content: space-between;
    align-items: center;
    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
-   width:103vw;
-   height: 20vh;
+   width:100vw;
+   height: 22vh;
    position: fixed; 
    left:50%;
    flex-direction: row;
@@ -13,8 +13,9 @@
    z-index:9999;
    background-color:#ffd5df;
    margin-left: 2px;
-   
+    
 }
+
 .name{
     display: none;
 }
@@ -26,16 +27,14 @@
 .another{
    background-color: #d72c4f;
    border-radius: 13px; 
-   /* display: flex; */
+   
     flex-direction: row;
-
-
      justify-content:flex-end ;
     align-items: flex-start; 
     position: fixed;
    box-shadow: 0 0px 15px 0 rgba(0,0,0,0.25);
-   width:100vw;
-   height: 50px; 
+   width:96vw;
+   height: 56px; 
    margin-top: 0vh;
    align-items: center;
    left:50%;
@@ -46,6 +45,7 @@
    display: flex;
    justify-content:right;
    gap:30px;
+   margin-top:-14px;
  
 }
  .together{
@@ -61,17 +61,24 @@ img.women{
     margin-left: 50%;
 }
 .insta{
-    width:2rem;
-    position: relative;
-    
+    width:2.5rem;
+    display: flex;
+    height: 2.5 rem;
+    flex-direction: row;
 }
+.insti{
+    width: 5.5em;
+    height: 3.3em;
+    border-radius: 13%;
+}
+
 .navbar-logo{
     font-size: 2rem;
     font-family: 'Diphylleia', serif;
     color:#d72c4f;
     margin-top: 50px;
     margin-left:0px;
-display: inline;
+    display: inline;
 
 }
 .nav-menu{
@@ -116,7 +123,7 @@ display: inline;
     transition: .5s ease;
     background-color: #008CBA;
   }  
-
+  
 .nav-links-mobile{
    display: none; 
 }
@@ -188,6 +195,12 @@ button{
         margin-top:-40px;
         margin-left: -75px;
        
+    }
+    .insta{
+        width:32px;
+        display: flex;
+        height: 32px;
+        
     }
     .nav-menu.active{
 left:110px;

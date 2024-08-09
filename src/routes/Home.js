@@ -18,6 +18,12 @@ function Home(){
 return(
     <div className="Home_Scene" >
 <Navbar/> 
+<div className="no">
+                         <div className="instcon">
+                                 <marquee>contact:</marquee>
+                        </div>
+                    </div>
+
 <div className="home">
 <div className="car">
   
